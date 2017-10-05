@@ -1,0 +1,20 @@
+{
+  "name": "node-chat-app",
+  "version": "0.0.0",
+  "description": "node-chat-app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "author": {
+    "name": "frank"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
